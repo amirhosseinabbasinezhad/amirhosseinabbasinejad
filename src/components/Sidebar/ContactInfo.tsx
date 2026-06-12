@@ -2,7 +2,7 @@ import { Box, Typography, Stack } from '@mui/material';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LanguageIcon from '@mui/icons-material/Language';
 import BadgeOutlinedIcon from '@mui/icons-material/BadgeOutlined';
 
 interface ContactInfoProps {
@@ -10,7 +10,7 @@ interface ContactInfoProps {
     phone: string;
     email: string;
     location: string;
-    linkedin: string;
+    website: string;
     military: string;
   };
 }
@@ -20,7 +20,7 @@ export const ContactInfo = ({ contact }: ContactInfoProps) => {
     { icon: <PhoneIcon />, text: contact.phone, type:"phone", dir: 'ltr' as const },
     { icon: <EmailIcon />, text: contact.email,type:"mail", dir: 'ltr' as const },
     { icon: <LocationOnIcon />, text: contact.location, dir: 'ltr' as const },
-    { icon: <LinkedInIcon />, text: contact.linkedin,type:"link", dir: 'ltr' as const },
+    { icon: <LanguageIcon />, text: contact.website,type:"link", dir: 'ltr' as const },
     { icon: <BadgeOutlinedIcon />, text: contact.military, dir: 'ltr' as const },
   ];
 

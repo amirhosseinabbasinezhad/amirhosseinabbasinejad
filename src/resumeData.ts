@@ -4,12 +4,12 @@ import mikrotikConf from "./assets/configurationMikroTik.jpg"
 import ciscoswitching from "./assets/cisco2.jpg"
 export const resumeData = {
   name: "امیرحسین عباسی نژاد",
-  title: "Network Administrator | IT Support Specialist ",
+  title: "Network Technician | IT Support Specialist |  Network Engineer",
   contact: {
     phone: "09102678945",
     email: "amirabbasinezhad79@gmail.com",
+    website: "amirhosseinabbasinejad.vercel.app",
     location: "تهران، ایران",
-    linkedin: "linkedin.com/in/amir-abbasinejad",
     military: "پایان خدمت"
   },
   certificates: [
