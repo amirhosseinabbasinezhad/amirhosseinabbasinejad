@@ -1,3 +1,7 @@
+import cameraTunnel from "./assets/camera-tunel.jpg"
+import ciscoRouting from "./assets/ciscoRoutingSwitching.jpg"
+import mikrotikConf from "./assets/configurationMikroTik.jpg"
+import ciscoswitching from "./assets/cisco2.jpg"
 export const resumeData = {
   name: "امیرحسین عباسی نژاد",
   title: "Network Administrator | IT Support Specialist ",
@@ -37,16 +41,7 @@ export const resumeData = {
         "همکاری با تیم بک‌اند و یکپارچه‌سازی APIها"
       ]
     },
-    {
-      title: "راندنده سازمانی / پشتیبان اجرایی",
-      date: "۱۳۹۹ - ۱۴۰۱",
-      company: "شهرداری منطقه ۵ تهران",
-      description: [
-        "انجام امور حمل و نقل سازمانی و پشتیبانی لجستیک تیم‌های اجرایی",
-        "مدیریت زمان و انجام مأموریت‌ها با دقت و به‌موقع",
-        "هماهنگی بین بخش‌های فنی و اجرایی"
-      ]
-    }
+   
   ],
   projects: [
     {
@@ -69,9 +64,9 @@ export const resumeData = {
     }
   ],
   gallery: [
-    { src: "1000031799.jpg", caption: "مدیریت سوئیچ‌های سیسکو (Cisco 2950 Series)" },
-    { src: "1000041817.jpg", caption: "پیکربندی دوربین و ویدئو سرو (Samsung)" },
-    { src: "1000041846.jpg", caption: "سخت‌افزار و مانیتورینگ تخصصی" },
-    { src: "1000041849.jpg", caption: "زیرساخت و تجهیزات مانیتورینگ" }
+    { src: cameraTunnel, caption: "تنظیم دوربین داهوا و انتقال تصویر بین دو مودم توسط تجهیزات سیسکو ." },
+    { src: ciscoRouting, caption: "روتینگ و سویچینگ سیسکو به همراه لودبالانس" },
+    { src: mikrotikConf, caption: "پیکر بندی انواع تونل ها و... در میکروتیک" },
+    { src: ciscoswitching, caption: "زیرساخت و تجهیزات سیسکو" }
   ]
 };

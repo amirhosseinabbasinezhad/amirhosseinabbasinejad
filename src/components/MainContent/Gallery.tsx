@@ -1,6 +1,5 @@
 import { Box, Typography, Card, CardMedia, CardContent, Alert } from '@mui/material';
 import ImageIcon from '@mui/icons-material/Image';
-import cameraTunnel from "../../assets/camera-tunel.jpg"
 
 interface GalleryItem {
   src: string;
@@ -36,7 +35,7 @@ export const Gallery = ({ gallery }: GalleryProps) => {
           <Card key={idx} sx={{ borderRadius: 2, overflow: 'hidden', transition: 'transform 0.2s', '&:hover': { transform: 'translateY(-4px)' } }}>
             <CardMedia
               component="img"
-              image={cameraTunnel}
+              image={item.src}
               alt={item.caption}
               sx={{ height: 130, objectFit: 'cover', backgroundColor: '#cbd5e1' }}
               onError={(e: any) => {
