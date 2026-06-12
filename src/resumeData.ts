@@ -20,10 +20,10 @@ export const resumeData = {
     { name: "VMware VCP (ICM)", width: 55,vendor: "VMware" },
   ],
   skills: [
-    { name: "CCNA (شبکه)", percent: 90 },
+    { name: "CCNA (شبکه)", percent: 95 },
     { name: "Windows Server", percent: 50 },
-    { name: "VMware", percent: 85 },
-    { name: "Linux", percent: 30 },
+    { name: "VMware", percent: 65 },
+    { name: "MikrotTik", percent: 90 },
     { name: "Active Directory", percent: 50 },
     { name: "React / Next.js", percent: 90 },
     { name: "TypeScript", percent: 85 },
@@ -33,7 +33,7 @@ export const resumeData = {
   experiences: [
     {
       title: "توسعه‌دهنده فرانت‌اند / ری‌اکت",
-      date: "۱۴۰۱ - اکنون",
+      date: "۱۴۰۱ - ۱۴۰۲",
       company: "فناوران متحد رسانه گستر",
       description: [
         "توسعه و نگهداری وب‌سایت‌ها و پنل‌های تحت وب با React و Next.js",
@@ -45,22 +45,22 @@ export const resumeData = {
   ],
   projects: [
     {
-      name: "Ezone",
-      subtitle: "سیستم فروش محصولات نزدیک انقضا",
-      description: "پلتفرم مدیریت کالاهای تاریخ‌گذشته با قابلیت اعلان و تخفیف پویا. استک: Next.js, Express, MongoDB",
-      tech: "Next.js, MongoDB, Tailwind"
+      name: "پیاده‌سازی شبکه سازمانی با تجهیزات واقعی",
+      subtitle:"پیاده‌سازی کامل شبکه سازمانی با تجهیزات سیسکو و میکروتیک",
+      description:["پیکربندی سوئیچ‌های Cisco و پیاده‌سازی VLAN، Trunk، STP و Port Security در محیط آزمایشگاهی","راه‌اندازی روتر و انجام تنظیمات NAT، Firewall، DHCP و مدیریت پهنای باند","شبیه‌سازی سناریوهای شبکه و عیب‌یابی مشکلات ارتباطی برای افزایش تسلط بر مفاهیم Switching و Routing","کار عملی با تجهیزات واقعی Cisco و MikroTik در محیط آزمایشگاهی"],
+      tech: ""
     },
     {
-      name: "Chrome Extension API Viewer",
-      subtitle: "ابزار توسعه‌دهندگان",
-      description: "اکستنشن مرورگر برای نمایش و رصد درخواست‌های API در لحظه، ساخته شده با React و TypeScript.",
-      tech: "React, TypeScript, Chrome API"
+      name: "پیکربندی و مدیریت روترهای MikroTik",
+      subtitle: "تجهیزات واقعی",
+      description:["راه‌اندازی و پیکربندی RouterOS در محیط آزمایشگاهی","پیاده‌سازی NAT, DHCP و مدیریت پهنای باند","پیکربندی پروتکل‌های مسیریابی OSPF و BGP","یجاد انواعTunnelها  و برقراری ارتباط بین شبکه‌ها "],
+      tech: ""
     },
     {
-      name: "Portfolio Website (رزومه آنلاین)",
-      subtitle: "وب‌سایت شخصی",
-      description: "طراحی و پیاده‌سازی نمونه‌کار حرفه‌ای با React، تایپ‌اسکریپت و Material UI.",
-      tech: "React, TypeScript, MUI"
+      name: "مجازی‌سازی و Windows Server",
+      subtitle: "پروژه های شبیه سازی",
+      description: ["نصب و پیکربندی VMware ESXi در محیط آزمایشگاهی","ایجاد و مدیریت ماشین‌های مجازی" , "پیاده‌سازی سرویس‌های پایه Windows Server شامل Active Directory، Domain Controller ,DHCP ,DNS" ,"استفاده از Snapshot و مدیریت منابع ماشین‌های مجازی","شبیه‌سازی سناریوهای شبکه و سرویس‌های سازمانی برای افزایش مهارت عملی"],
+      tech: "ESXI , VCenter ,windows server 2022"
     }
   ],
   gallery: [
@@ -69,4 +69,5 @@ export const resumeData = {
     { src: mikrotikConf, caption: "پیکر بندی انواع تونل ها و... در میکروتیک" },
     { src: ciscoswitching, caption: "زیرساخت و تجهیزات سیسکو" }
   ]
+  
 };

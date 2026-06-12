@@ -4,7 +4,7 @@ import CodeIcon from '@mui/icons-material/Code';
 interface Project {
   name: string;
   subtitle: string;
-  description: string;
+  description: string[];
   tech: string;
 }
 
@@ -27,7 +27,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
       >
         <CodeIcon sx={{ color: '#0284c7' }} />
         <Typography variant="h5" sx={{fontWeight:700, color:"#0f172a"}}>
-          پروژه‌های شاخص
+          سوابق عملی و پیاده‌سازی‌ها
         </Typography>
       </Box>
 
@@ -59,9 +59,23 @@ export const Projects = ({ projects }: ProjectsProps) => {
               {project.subtitle}
             </Typography>
           </Box>
-          <Typography sx={{ marginBottom: 1, color: '#334155', fontSize: '0.9rem' }}>
-            {project.description}
-          </Typography>
+          <Box
+            component="ul"
+            sx={{
+              paddingRight: 2,
+              marginTop: 1,
+              color: '#334155',
+              fontSize: '0.9rem',
+            }}
+          >
+           {project.description.map((item, i) => (
+              <li key={i} style={{ marginBottom: '0.3rem' }}>
+                
+            {item}
+          
+              </li>
+            ))}
+          </Box>
           <Box sx={{ fontSize: '0.75rem', color: '#475569', marginTop: 1 }}>
             <i className="fas fa-tag"></i> {project.tech}
           </Box>

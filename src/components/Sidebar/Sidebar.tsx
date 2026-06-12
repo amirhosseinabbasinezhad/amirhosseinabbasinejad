@@ -4,6 +4,7 @@ import { ContactInfo } from './ContactInfo';
 import { Certificates } from './Certificates';
 import { Skills } from './Skills';
 import { resumeData } from '../../resumeData';
+import { SoftSkills } from './SoftSkills';
 
 export const Sidebar = () => {
   return (
@@ -19,6 +20,7 @@ export const Sidebar = () => {
       <ContactInfo contact={resumeData.contact} />
       <Certificates certificates={resumeData.certificates} />
       <Skills skills={resumeData.skills} />
+      <SoftSkills />
     </Box>
   );
 };

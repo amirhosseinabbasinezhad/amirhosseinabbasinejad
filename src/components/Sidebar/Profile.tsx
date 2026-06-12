@@ -1,5 +1,5 @@
 import { Box, Typography, Avatar } from '@mui/material';
-
+import profile from "../../assets/profile.jpg"
 interface ProfileProps {
   name: string;
   title: string;
@@ -17,18 +17,23 @@ export const Profile = ({ name, title, avatar }: ProfileProps) => {
           marginBottom: 2,
         }}
       >
-        <Avatar
-          src={avatar}
-          alt={name}
-          sx={{
-            width: 120,
-            height: 120,
-            border: '4px solid #38bdf8',
-            boxShadow: '0 0 20px rgba(56, 189, 248, 0.3)',
-            backgroundColor: '#1e293b',
-          }}
-        >
-          {/* اگر عکس لود نشد، حروف اول نام نمایش داده می‌شود */}
+       <Avatar
+    src={profile}
+    alt={name}
+    sx={{
+        width: 120,
+        height: 120,
+         transform: 'scale(1.2)', 
+        border: '4px solid #38bdf8',
+        boxShadow: '0 0 20px rgba(56, 189, 248, 0.3)',
+        backgroundColor: '#ffffff',
+        '& .MuiAvatar-img': {       
+            objectFit: 'contain',    
+            transform: 'scale(1.1)'   
+        }
+    }}
+>
+        
           {!avatar && name.charAt(0)}
         </Avatar>
       </Box>
