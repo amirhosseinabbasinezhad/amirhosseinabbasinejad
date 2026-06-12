@@ -1,7 +1,6 @@
 import { Paper, Box } from '@mui/material';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { MainContent } from './components/MainContent/MainContent';
-import { Rtt } from '@mui/icons-material';
 
 export const ResumeLayout = () => {
   return (

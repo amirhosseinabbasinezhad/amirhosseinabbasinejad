@@ -3,9 +3,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import BadgeOutlinedIcon from '@mui/icons-material/BadgeOutlined';
-import MilitaryTechOutlinedIcon from '@mui/icons-material/MilitaryTechOutlined';
 
 interface ContactInfoProps {
   contact: {

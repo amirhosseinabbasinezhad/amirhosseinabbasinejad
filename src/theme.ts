@@ -1,10 +1,9 @@
 import { createTheme } from '@mui/material/styles';
-import '@fontsource/vazirmatn';
 
 export const theme = createTheme({
   direction: 'rtl',
   typography: {
-    fontFamily: '"Vazirmatn", "Segoe UI", Tahoma, sans-serif',
+      fontFamily: 'Vazirmatn, sans-serif',
   },
   palette: {
     primary: {
