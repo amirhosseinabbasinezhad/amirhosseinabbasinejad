@@ -1,4 +1,4 @@
-import { Box, Divider } from '@mui/material';
+import { Box } from '@mui/material';
 import { About } from './About';
 import { Experience } from './Experience';
 import { Projects } from './Projects';
