@@ -30,7 +30,7 @@ export const theme = createTheme({
       styleOverrides: {
         body: {
           margin: 0,
-          padding: '0rem 0rem',
+          padding: '2rem 1rem',
           backgroundColor: '#eef2f5',
         },
         // ========== تنظیمات مخصوص چاپ و PDF ==========
@@ -75,7 +75,7 @@ export const theme = createTheme({
           },
           '@page': {
             size: 'A4',
-            margin: '0.2cm',
+            margin: '1.2cm',
           },
           '.gallery': {
             display: 'grid !important',
