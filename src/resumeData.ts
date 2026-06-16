@@ -2,7 +2,6 @@ import cameraTunnel from "./assets/camera-tunel.jpg"
 import ciscoRouting from "./assets/ciscoRoutingSwitching.jpg"
 import mikrotikConf from "./assets/configurationMikroTik.jpg"
 import ciscoswitching from "./assets/cisco2.jpg"
-import { Article } from "@mui/icons-material";
 export const resumeData = {
   name: "امیرحسین عباسی نژاد",
   title: "Network Technician | IT Support Specialist | Junior Network Engineer",
