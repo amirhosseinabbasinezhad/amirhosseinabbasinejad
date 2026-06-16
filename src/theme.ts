@@ -75,7 +75,7 @@ export const theme = createTheme({
           },
           '@page': {
             size: 'A4',
-            margin: '1.2cm',
+            margin: '0.1cm',
           },
           '.gallery': {
             display: 'grid !important',
