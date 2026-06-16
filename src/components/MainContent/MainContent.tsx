@@ -4,11 +4,13 @@ import { Experience } from './Experience';
 import { Projects } from './Projects';
 import { Gallery } from './Gallery';
 import { resumeData } from '../../resumeData';
+import { Education } from './Education';
 
 export const MainContent = () => {
   return (
     <Box>
       <About text={resumeData.about} />
+      <Education experiences={resumeData.education} />
       <Experience experiences={resumeData.experiences} />
       <Projects projects={resumeData.projects} />
       <Gallery gallery={resumeData.gallery} />

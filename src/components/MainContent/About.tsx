@@ -1,6 +1,5 @@
 import { Box, Typography, Paper } from '@mui/material';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-
+import user from "../../assets/user.svg"
 interface AboutProps {
   text: string;
 }
@@ -9,7 +8,7 @@ export const About = ({ text }: AboutProps) => {
   return (
     <Box sx={{ mb: 3 }}>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2, borderRight: '5px solid #38bdf8', pr: 2 }}>
-        <AccountCircleIcon sx={{ color: '#0284c7' }} />
+        <img src={user} width={25}/>
         <Typography variant="h5" sx={{fontWeight:700, color:"#0f172a"}}>
           درباره من
         </Typography>

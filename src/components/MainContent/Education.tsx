@@ -1,18 +1,18 @@
 import { Box, Typography, Paper } from '@mui/material';
-import work from '../../assets/work.svg';
+import edu from '../../assets/edu.svg';
 
-interface ExperienceItem {
+interface EducationItem {
   title: string;
   date: string;
-  company: string;
-  description: string[];
+  uni: string;
+ 
 }
 
-interface ExperienceProps {
-  experiences: ExperienceItem[];  // این خط مهم است
+interface EducationProps {
+  experiences: EducationItem[];  // این خط مهم است
 }
 
-export const Experience = ({ experiences }: ExperienceProps) => {
+export const Education = ({ experiences }: EducationProps) => {
   return (
     <Box sx={{ marginBottom: 3 }}>
       <Box
@@ -25,9 +25,9 @@ export const Experience = ({ experiences }: ExperienceProps) => {
           paddingRight: 2,
         }}
       >
-        <img src={work} width={30}/>
+        <img src={edu} width={30}/>
         <Typography variant="h5" sx={{fontWeight:700,color:"#0f172a"}}>
-          سوابق کاری
+          تحصیلات
         </Typography>
       </Box>
 
@@ -60,7 +60,7 @@ export const Experience = ({ experiences }: ExperienceProps) => {
             </Typography>
           </Box>
           <Typography sx={{color:"#0284c7", fontWeight:600, marginBottom: 1 }}>
-            {exp.company}
+            {exp.uni}
           </Typography>
           <Box
             component="ul"
@@ -71,11 +71,7 @@ export const Experience = ({ experiences }: ExperienceProps) => {
               fontSize: '0.9rem',
             }}
           >
-            {exp.description.map((item, i) => (
-              <li key={i} style={{ marginBottom: '0.3rem' }}>
-                ▸ {item}
-              </li>
-            ))}
+           
           </Box>
         </Paper>
       ))}

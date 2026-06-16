@@ -2,9 +2,10 @@ import cameraTunnel from "./assets/camera-tunel.jpg"
 import ciscoRouting from "./assets/ciscoRoutingSwitching.jpg"
 import mikrotikConf from "./assets/configurationMikroTik.jpg"
 import ciscoswitching from "./assets/cisco2.jpg"
+import { Article } from "@mui/icons-material";
 export const resumeData = {
   name: "امیرحسین عباسی نژاد",
-  title: "Network Technician | IT Support Specialist |  Network Engineer",
+  title: "Network Technician | IT Support Specialist | Junior Network Engineer",
   contact: {
     phone: "09102678945",
     email: "amirabbasinezhad79@gmail.com",
@@ -29,7 +30,28 @@ export const resumeData = {
     { name: "TypeScript", percent: 85 },
     { name: "Node.js / Express", percent: 75 },
   ],
-  about: "کارشناس شبکه و فناوری اطلاعات با تجربه در زمینه طراحی و توسعه وب با React و Next.js. همچنین مسلط به راهکارهای شبکه، مجازی‌سازی، ویدئو سرو و رفع مشکلات سخت‌افزاری و نرم‌افزاری. علاقه‌مند به یادگیری مداوم، حل مسائل پیچیده و افزایش بهره‌وری سیستم‌ها.",
+  about: "کارشناس شبکه و فناوری اطلاعات، علاقه‌مند به طراحی، پشتیبانی و عیب‌یابی زیرساخت‌های شبکه. دارای دانش در زمینه میکروتیک، سیسکو و مجازی‌سازی و مشتاق یادگیری مستمر و توسعه مهارت‌های تخصصی در حوزه شبکه و زیرساخت .",
+  education:[
+ {
+      title: "مهندسی کامپیوتر (نرم افزار)",
+      date: "۱۳۹۸ - ۱۴۰۲",
+      uni: "دانشگاه علم و فرهنگ",
+      
+    },
+   
+  ],
+  articles:[
+ {
+      id: 1,
+      title: 'آموزش استاتیک روت در میکروتیک',
+      author: 'امیرحسین عباسی نژاد',
+      source: 'توسینسو',
+      link: 'https://tosinso.com/articles/45484/how-config-static-route-in-mikrotik-in-winbox-and-cli',
+      date: '۱۴۰۴/۰۹/۲۶'
+    },
+    
+  
+  ],
   experiences: [
     {
       title: "توسعه‌دهنده فرانت‌اند / ری‌اکت",

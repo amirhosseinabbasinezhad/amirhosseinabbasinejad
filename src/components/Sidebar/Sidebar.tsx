@@ -5,6 +5,7 @@ import { Certificates } from './Certificates';
 import { Skills } from './Skills';
 import { resumeData } from '../../resumeData';
 import { SoftSkills } from './SoftSkills';
+import Articles  from '../Sidebar/Article';
 
 export const Sidebar = () => {
   return (
@@ -21,6 +22,7 @@ export const Sidebar = () => {
       <Certificates certificates={resumeData.certificates} />
       <Skills skills={resumeData.skills} />
       <SoftSkills />
+      <Articles articles={resumeData.articles}/>
     </Box>
   );
 };
